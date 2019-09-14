@@ -3,11 +3,23 @@
 <head>
   <title>Ben Keener</title>
   <link rel="shortcut icon" href="favicon.png" />
+  <link rel="stylesheet" href="styles/body.css">
 </head>
 <body>
 
-  <h1>My First Heading</h1>
-  <p>My first paragraph.</p>
+  <ul class="flex-container nowrap">
+    <li class="flex-item me_pic_container">
+      <img class="me_pic" src="me.jpeg" alt="picture of me :)">
+    </li>
+    <li class="flex-item intro">
+      <span class="intro_container">Hello! I'm Ben Keener and I love
+        <span class="typer" id="main" data-words=
+              "swimming,San Francisco,machine learning,programming,learning,food,"
+              data-delay="100" data-deleteDelay="1500"></span>
+        <span class="cursor" data-owner="main"></span></span>
+        <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    </li>
+  </ul>
 
 </body>
 </html>
