@@ -136,3 +136,46 @@ a, a:visited {
   width: 100vw;
   height: 100vh;
 }
+
+.amheader {
+  background-color: #2EC4B6;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  text-align: right;
+}
+
+.amribbon {
+  box-sizing: border-box;
+  font-family: Tahoma, Geneva, sans-serif;
+  background-color: #FFFFF7;
+  margin: 0;
+  padding: 10px;
+  padding-right: 7%;
+  width: 40%;
+  font-size: 3em;
+  font-weight: 600;
+  float: right;
+  box-shadow: 1px 1px 2px black;
+  color: #000;
+}
+
+.amribbon::before {
+  font-size: 1em;
+  font-weight: 600;
+
+  position: absolute;
+  margin: 1px 0 0 1px;
+  content: "About Me";
+  color: #2EC4B6;
+  opacity: 0.2
+  filter:alpha(opacity=20);
+}
