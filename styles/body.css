@@ -63,8 +63,12 @@ body {
   width: calc(var(--top-width)*var(--top-intro-part));
 }
 
-.intro span {
+.intro_container {
   vertical-align: middle;
   display: inline-block;
   line-height: normal;
+}
+
+.typer {
+  vertical-align: top;
 }
