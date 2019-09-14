@@ -72,3 +72,29 @@ body {
 .typer {
   vertical-align: top;
 }
+
+.socials_header {
+  justify-content: flex-end;
+  height: 35px;
+  float: left;
+  box-sizing: border-box;
+  width: 98%;
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  margin: 10px;
+}
+
+.contact {
+  float: left;
+}
+
+.social {
+  box-sizing: border-box;
+  margin: 2px;
+}
+
+.social ion-icon {
+  height: 100%;
+  width: 31px;
+}
