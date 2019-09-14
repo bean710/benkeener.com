@@ -5,6 +5,10 @@
 }
 
 body {
+  margin: 0;
+}
+
+.initpage {
   background-color: #FFFFF7;
 }
 
@@ -39,6 +43,11 @@ body {
   font-size: 3em;
   text-align: center;
   color: #011627;
+}
+
+.top {
+  height: 100vh;
+  margin-top: 10%;
 }
 
 .me_pic_container {
@@ -97,4 +106,15 @@ body {
 .social ion-icon {
   height: 100%;
   width: 31px;
+}
+
+.aboutme {
+  display: inline-block;
+  height: 100vh;
+  background-color: #2EC4B6;
+}
+
+.full {
+  width: 100vw;
+  height:100%;
 }
