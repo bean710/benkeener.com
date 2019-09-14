@@ -75,7 +75,7 @@ body {
 
 .socials_header {
   justify-content: flex-end;
-  height: 30px;
+  height: 35px;
   float: left;
   box-sizing: border-box;
   width: 98%;
@@ -91,5 +91,10 @@ body {
 
 .social {
   box-sizing: border-box;
-  margin: 5px;
+  margin: 2px;
+}
+
+.social ion-icon {
+  height: 100%;
+  width: 31px;
 }
