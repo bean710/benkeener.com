@@ -103,14 +103,3 @@ body {
   height: 100%;
   width: 31px;
 }
-
-.aboutme {
-  display: inline-block;
-  height: 100vh;
-  background-color: #2EC4B6;
-}
-
-.full {
-  width: 100vw;
-  height: 100vh;
-}
