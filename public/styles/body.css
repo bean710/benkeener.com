@@ -41,6 +41,11 @@ body {
   color: #011627;
 }
 
+.top {
+  height: 100vh;
+  margin-top: 10%;
+}
+
 .me_pic_container {
   background-color: transparent;
   width: calc(var(--top-width)*var(--top-picture-part));
@@ -97,4 +102,15 @@ body {
 .social ion-icon {
   height: 100%;
   width: 31px;
+}
+
+.aboutme {
+  display: inline-block;
+  height: 100vh;
+  background-color: #2EC4B6;
+}
+
+.full {
+  width: 100vw;
+  height: 100vh;
 }
