@@ -43,10 +43,6 @@ body {
   color: #011627;
 }
 
-.top {
-  height: 1vh;
-}
-
 .me_pic_container {
   background-color: transparent;
   width: calc(var(--top-width)*var(--top-picture-part));
@@ -103,4 +99,22 @@ body {
 .social ion-icon {
   height: 100%;
   width: 31px;
+}
+
+.page-select {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 200px;
+  font-size: x-large;
+}
+
+.page-select a {
+  color: #011627;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.page-select a:visited {
+  color: #011627;
 }

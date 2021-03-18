@@ -1,0 +1,20 @@
+body {
+    background-color: #FFFFF7 !important;
+}
+
+.content {
+    margin: auto;
+    margin-top: 20px;
+    max-width: 700px;
+}
+
+.content img {
+    width: 20%;
+    display: inline;
+    float: left;
+    margin: 10px;
+}
+
+.content p {
+    text-indent: 15px;
+}
